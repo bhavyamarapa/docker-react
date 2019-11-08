@@ -5,4 +5,4 @@ services:
 before_install:
   - docker build -t bhavyamarapa/docker-react -f Dockerfile.dev .
 script:
-  - docker run bhavyamarapa/docker-react npm run test -- -- coverage
+  - docker run bhavyamarapa/docker-react npm run test -- --coverage
