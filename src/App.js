@@ -12,6 +12,7 @@ class App extends Component {
         </header>
         <p className="App-intro">
           I was changed on the Feature branch
+          Adding this to verify
         </p>
       </div>
     );
